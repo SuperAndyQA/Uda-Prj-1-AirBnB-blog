@@ -20,7 +20,7 @@
 
 ### Purposes
 
-To gain a deeper understanding of the Seattle Airbnb dataset, we can explore and answer several key questions related to the data:
+The Seattle Airbnb Dataset (including listings.csv, calendar.csv, reviews.csv) list up AirBnB accommodations in Seattle, their availability and Airbnb users' reviews. Paying attention on this dataset, I set the following problems to be addressed in this notebook and presented on blogspot:
 
 Understandings of Price Seasonal and Usage trend:
 1. Highlighting the seasonal patterns in pricing and accommodation usage trends?
@@ -29,7 +29,8 @@ Understandings of Price Seasonal and Usage trend:
 
 Price Prediction
 
-4. Can we predict the price of a given listing? Which listing factors show the strongest correlation with price?
+4. Can we develop a model to predict the price of giving current list of accommodations & reviews?
+5. Which listing factors show the strongest correlation with price?
 
 
 ### Descriptions
@@ -38,7 +39,7 @@ The Jupyter notebook showcases the analysis conducted to explore the dataset, in
 
 For a detailed breakdown of the results, please refer to this blog (https://bnaduy.blogspot.com/2024/11/interesting-findings-of-seattle-airbnb.html).
 
-The "Seattle" folder contains dataset from Kaggle (https://www.kaggle.com/airbnb/seattle) in Seattle.zip, which includes three files:
+The "Seattle" folder contains dataset from Kaggle (https://www.kaggle.com/airbnb/seattle) in "Seattle.zip", which includes three files:
 
 * calendar.csv: Contains the availability and pricing of listings.
 * listings.csv: Provides details about all available listings.
