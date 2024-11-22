@@ -1,9 +1,9 @@
-#  Seattle Airbnb Dataset
+#  Seattle Airbnb Data Analysis & Predictions
 
 ## Table of Contents
 
 1. [Installations](#installations)
-2. [Motivation](#motivation)
+2. [Purposes](#purposes)
 3. [Descriptions](#descriptions)
 4. [Summary](#summary)
 5. [Acknowledgements](#acknowledgements)
@@ -13,13 +13,12 @@
 
 1. Collections
 2. Matplotlib
-3. NLTK
-4. NumPy
-5. Pandas
-6. Seaborn
-7. Sklearn
+3. NumPy
+4. Pandas
+5. Sklearn - linear regression model & metrics
+6. Operating System (os)
 
-### Motivation
+### Purposes
 
 To gain a deeper understanding of the Seattle Airbnb dataset, we can explore and answer several key questions related to the data:
 
@@ -35,11 +34,11 @@ Price Prediction
 
 ### Descriptions
 
-The Jupyter notebook showcases the analysis conducted to explore the dataset, including data preparation, management, and the creation of predictive models to answer the questions posed. Markdown cells are utilized to document the processes and present the results of each analysis.
+The Jupyter notebook showcases the analysis conducted to explore the dataset, including data preparation, management, and the creation and evaluation of predictive models to answer the posted questions posted.
 
 For a detailed breakdown of the results, please refer to this blog (https://bnaduy.blogspot.com/2024/11/interesting-findings-of-seattle-airbnb.html).
 
-The "seattle" folder contains the dataset from Kaggle (https://www.kaggle.com/airbnb/seattle) and includes three files:
+The "Seattle" folder contains dataset from Kaggle (https://www.kaggle.com/airbnb/seattle) in Seattle.zip, which includes three files:
 
 * calendar.csv: Contains the availability and pricing of listings.
 * listings.csv: Provides details about all available listings.
@@ -48,13 +47,12 @@ The "seattle" folder contains the dataset from Kaggle (https://www.kaggle.com/ai
 ### Summary
 
 * The peak pricing months were June, July, and August, with August recording the highest prices.
-* The highest volume of bookings occurred in January, followed by July and August.
-* The neighborhood with the highest prices was Southeast Magnolia, followed by Portage Bay, Westlake, West Queen Anne, and Montlake.
-* The neighborhoods with the lowest prices were Rainier Beach, followed by North and South Delridge, Georgetown, and Olympic Hills.
+* The highest volume of bookings occurred in January, followed by July and August. The lowest volume occured in Dec
+* The neighborhood with the highest prices was Southeast Magnolia, followed by Portage Bay, Westlake, West Queen Anne, and so on. Meanwhile, the neighborhoods with the lowest prices were Rainier Beach, followed by North and South Delridge, Georgetown, and so on.
 * Focus was given to the highest-priced neighborhoods, primarily analyzing houses and apartments as these are the most common property types.
-* Portage Bay has the most expensive houses, followed by West Queen Anne and Westlake. In Westlake, both houses and apartments are similarly priced.
-* The most influential factors on price are the combination of host details and descriptive information about the listing, such as host details and descriptive listing information, including host acceptance rate, host response time, property type, bed type.
+* Portage Bay has the higest average house price, followed by West Queen Anne and Westlake. In Westlake, the average price of both houses and apartments are similar.
+* The coefficient analysis shows that the most positive influential factors on the price were a combination of host details and descriptive listing information, including fields such as host acceptance rate, room type (entire or private room) where negative factors example are city of Seattle.
 
 ### Acknowledgements
 
-Thanks to the AirBnB dataset published by AirBnB and Kaggle, the dataset link is ttps://www.kaggle.com/airbnb/seattle
+The dataset was published by AirBnB and Kaggle follow this link `https://www.kaggle.com/airbnb/seattle`
