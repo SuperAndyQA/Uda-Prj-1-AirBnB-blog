@@ -49,7 +49,7 @@ The "Seattle" folder contains dataset from Kaggle (https://www.kaggle.com/airbnb
 
 * The peak pricing months were June, July, and August, with August recording the highest prices.
 * The highest volume of bookings occurred in January, followed by July and August. The lowest volume occured in December. Booking volume of Jan-2017 were very small, probably data was not sufficiently collected.
-* The neighborhood with the highest prices was Southeast Magnolia, followed by Portage Bay, Westlake, West Queen Anne, and so on. Meanwhile, the neighborhoods with the lowest prices were Rainier Beach, followed by North and South Delridge, Georgetown, and so on.
+* The neighborhood with the highest prices was Southeast Magnolia, followed by Portage Bay, Westlake, West Queen Anne, and so on. Meanwhile, the neighborhoods with the lowest prices were Rainier Beach, followed by North and South Delridge, Georgetown, etc.
 * Focus was given to the highest-priced neighborhoods, primarily analyzing houses and apartments as these are the most common property types.
 * Portage Bay has the higest average house price, followed by West Queen Anne and Westlake. In Westlake, the average price of both houses and apartments are similar.
 * The coefficient analysis shows that the most positive influential factors on the price were a combination of host details and descriptive listing information, including fields such as host acceptance rate, room type (entire or private room) where negative factors example are city of Seattle.
