@@ -37,7 +37,7 @@ Price Prediction
 
 The Jupyter notebook showcases the analysis conducted to explore the dataset, including data preparation, management, and the creation and evaluation of predictive models to answer the posted questions posted.
 
-For a detailed breakdown of the results, please refer to this blog (https://bnaduy.blogspot.com/2024/11/interesting-findings-of-seattle-airbnb.html).
+For a detailed breakdown of the results, please refer to this blog (https://andynq8.blogspot.com/2024/11/some-facts-about-seattle-airbnb.html).
 
 The "Seattle" folder contains dataset from Kaggle (https://www.kaggle.com/airbnb/seattle) in "Seattle.zip", which includes three files:
 
